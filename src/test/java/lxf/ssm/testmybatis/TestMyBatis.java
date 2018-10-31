@@ -24,7 +24,7 @@ public class TestMyBatis {
 	@Test
 	public void test() {
 		User user = userService.getUserById(1);
-		logger.info(user);
+		logger.info(user.getPassword());
 		logger.info("user转json");
 		logger.info(JSON.toJSON(user));
 	}
