@@ -5,7 +5,7 @@
     <artifactId>ershiqi</artifactId>
     <packaging>war</packaging>
     <version>0.0.1-SNAPSHOT</version>
-    <name>lssm Maven Webapp</name>
+    <name>ershiqi Maven Webapp</name>
     <url>http://maven.apache.org</url>
     <properties>
         <!-- spring版本号 -->
@@ -175,7 +175,7 @@
         </dependency>
     </dependencies>
     <build>
-        <finalName>lssm</finalName>
+        <finalName>ershiqi</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
