@@ -14,7 +14,7 @@
         <div class="header">
             <div class="header-wrap">
                 <h1 class="logo pull-left">
-                    <a href="index.html">
+                    <a href="/blog/index.html">
                         <img src="../res/static/images/logo.png" alt="" class="logo-img">
                         <img src="../res/static/images/logo-text.png" alt="" class="logo-text">
                     </a>
@@ -57,7 +57,7 @@
                         </h4>
                         <div class="item">
                             <div class="item-box  layer-photos-demo1 layer-photos-demo">
-                                <h3><a href="details.html">Host is not allowed to connect to this MySQL server解决方法</a></h3>
+                                <h3><a href="/blog/details.html">Host is not allowed to connect to this MySQL server解决方法</a></h3>
                                 <h5>发布于：<span>刚刚</span></h5>
                                 <p>先说说这个错误，其实就是我们的MySQL不允许远程登录，所以远程登录失败了，解决方法如下：</p>
                                 <p>  1. 在装有MySQL的机器上登录MySQL mysql -u root -p密码</p>
@@ -75,7 +75,7 @@
                         </div>
                         <div class="item">
                             <div class="item-box  layer-photos-demo2 layer-photos-demo">
-                                <h3><a href="details.html">Ubuntu mysql 彻底删除</a></h3>
+                                <h3><a href="blog/details.html">Ubuntu mysql 彻底删除</a></h3>
                                 <h5>发布于：<span>刚刚</span></h5>
                                 <p>1、使用以下命令查看当前安装mysql情况，查找以前是否装有mysql</p>
                                 <p>  rpm -qa|grep -i mysql</p>
@@ -96,7 +96,7 @@
                         </div>
                         <div class="item">
                             <div class="item-box  layer-photos-demo3 layer-photos-demo">
-                                <h3><a href="details.html">分布式与集群有什么区别</a></h3>
+                                <h3><a href="/blog/details.html">分布式与集群有什么区别</a></h3>
                                 <h5>发布于：<span>刚刚</span></h5>
                                 <p>1：分布式是指将不同的业务分布在不同的地方。 而集群指的是将几台服务器集中在一起，实现同一业务。</p>
                                 <p> 分布式中的每一个节点，都可以做集群。 而集群并不一定就是分布式的。</p>
@@ -120,7 +120,7 @@
         <div class="footer">
             <p>
                 <span>&copy; 2018</span>
-                <span><a href="index.html" target="_blank">layui.com</a></span> 
+                <span><a href="/blog/index.html" target="_blank">layui.com</a></span> 
                 <span>MIT license</span>
             </p>
             <p><span>人生就是一场修行</span></p>

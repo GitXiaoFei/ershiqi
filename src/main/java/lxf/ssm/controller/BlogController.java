@@ -4,6 +4,7 @@ import java.util.Date;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -30,8 +31,12 @@ public class BlogController {
     private IBlogService blogService;
 
     @RequestMapping("index")
-    public String toIndex(HttpServletRequest request, Model model) {
-        return "index";
+    public ModelAndView toIndex(HttpServletRequest request) {
+        HttpSession session = request.getSession();
+        ModelAndView model = new ModelAndView();
+        model.addObject("loginName", session.getAttribute("loginName"));
+        model.setViewName("index");
+        return model;
     }
 
     @RequestMapping("insert")

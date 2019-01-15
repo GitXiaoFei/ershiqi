@@ -7,11 +7,10 @@
     <meta charset="UTF-8">
     <title>关于-闲言轻博客</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../res/layui/css/layui.css">
-    <link rel="stylesheet" href="../res/static/css/mian.css">
 </head>
 <body class="lay-blog">
-        <div class="header">
+    <%@ include file="head.jspf"%>
+        <!-- <div class="header">
             <div class="header-wrap">
                 <h1 class="logo pull-left">
                     <a href="index.html">
@@ -32,6 +31,7 @@
                       <li class="layui-nav-item"><a href="/blog/index">首页</a></li>
                       <li class="layui-nav-item"><a href="/blog/message">留言</a></li>
                       <li class="layui-nav-item  layui-this"><a href="/blog/about.html">关于</a></li>
+                      <li class="layui-nav-item"><a href="/login/login.html">登录</a></li>
                     </ul>
                     <a href="#" class="personal pull-left">
                         <i class="layui-icon layui-icon-username"></i>
@@ -48,7 +48,7 @@
                 <li><a href="/blog/message.html">留言</a></li>
                 <li><a href="/blog/about.html">关于</a></li>
             </ul>
-        </div>
+        </div> -->
         <div class="container-wrap">
             <div class="container container-message container-details container-about">
                     <div class="contar-wrap">
@@ -70,14 +70,15 @@
                     </div>
             </div>
         </div>
-        <div class="footer">
+        <!-- <div class="footer">
             <p>
                 <span>&copy; 2018</span>
                 <span><a href="index.html" target="_blank">layui.com</a></span> 
                 <span>MIT license</span>
             </p>
             <p><span>人生就是一场修行</span></p>
-        </div>
+        </div> -->
+    <%@ include file="footer.jspf"%>
     <script src="../res/layui/layui.js">
 
     </script>

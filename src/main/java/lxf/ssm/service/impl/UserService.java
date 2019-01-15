@@ -2,7 +2,6 @@ package lxf.ssm.service.impl;
 
 import javax.annotation.Resource;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import lxf.ssm.dao.UserMapper;
@@ -18,4 +17,7 @@ public class UserService implements IUserService   {
 		return this.userDao.selectByPrimaryKey(userId);
 	}
 
+	public int selectByUser(User user) {
+	    return this.userDao.selectByUser(user);
+	}
 }
